@@ -1,0 +1,72 @@
+:root {
+  color-scheme: light;
+  background: #f3f6f9;
+  color: #243448;
+  font-family: system-ui, sans-serif;
+  line-height: 1.65;
+}
+
+body {
+  margin: 0;
+  padding: clamp(1rem, 5vw, 4rem);
+}
+
+main {
+  max-width: 43rem;
+  margin-inline: auto;
+  padding: clamp(1.25rem, 5vw, 3rem);
+  border: 1px solid #dce4ed;
+  border-radius: 1rem;
+  background: #fff;
+}
+
+header, nav, section {
+  margin-block-end: 1.5rem;
+}
+
+h1, h2 {
+  color: #15253a;
+  line-height: 1.2;
+  overflow-wrap: anywhere;
+}
+
+h1 {
+  margin: 0;
+  font-size: clamp(2rem, 5vw, 2.8rem);
+  letter-spacing: -0.035em;
+}
+
+h2 {
+  margin-block-end: 0.5rem;
+  font-size: 1.25rem;
+}
+
+p {
+  margin-block: 0.75rem;
+}
+
+header p {
+  color: #526477;
+}
+
+a {
+  color: #1255a6;
+  text-underline-offset: 0.18em;
+}
+
+a:focus-visible {
+  outline: 2px solid currentColor;
+  outline-offset: 0.2rem;
+}
+
+code {
+  padding: 0.1em 0.25em;
+  border-radius: 0.25rem;
+  background: #eaf0f6;
+}
+
+footer {
+  margin-block-start: 1.5rem;
+  padding-block-start: 1rem;
+  border-top: 1px solid #dce4ed;
+}
